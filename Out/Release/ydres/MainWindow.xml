@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window caption="0,0,0,36" roundcorner="0,0" sizebox ="4,4,6,6" size="925,600" mininfo="800,600">
+  <Font id="1" name="微软雅黑" size="12" bold="false" default="true" shared="true" />
+  <Font id="14" name="微软雅黑" size="14" bold="false" default="true" shared="true" />
+  <Font id="15" name="微软雅黑" size="14" bold="false" default="true" shared="true" />
+  <VerticalLayout bkcolor="#FFFFFFFF">
+    <HorizontalLayout  height="60" bkcolor="#FFF44C4C">
+      <HorizontalLayout >
+        <Button name="BtnYDLogo" mouse="false" padding="22,15,0,0" width="80" height="30" bkcolor="#FFF44C4C" normalimage="icons/84x30_Logo.png"/>
+        <Button name="BtnPrevPage" padding="33,24,0,0" width="8" height="13" bkcolor="#FFF44C4C" normalimage="icons/prev.png" hotimage="icons/prev-hover.png" pushedimage="icons/prev-disabled.png"/>
+        <Button name="BtnNextPage" padding="28,24,0,0" width="8" height="13" bkcolor="#FFF44C4C" normalimage="icons/next.png" hotimage="icons/next-hover.png" pushedimage="icons/next-disabled.png"/>
+        <Button name="BtnSearchLeft" padding="12,14,0,0" width="23" height="34" bkcolor="#FFF44C4C" enabled="false" normalimage="icons/input_left.png"/>
+        <Button name="BtnCvLg" padding="0,14,0,0" font="1" width="50" height="32" text="英汉互译" bkcolor="#FFFFFFFF"/>
+        <Button name="BtnTransSelect" padding="0,14,0,0" width="28" height="32" normalimage="icons/drop1.png"/>
+        <Edit name="EditSearch" padding="0,14,0,0" font="1" text="输入要查询的单词或词组" textcolor="#FF4B4F51" disabledtextcolor="#FFA7A6AA" height="32" />
+        <Button name="BtnSearch" padding="0,14,0,0" width="24" height="32" normalimage="icons/search1.png"/>
+        <Button name="BtnSearchRight" padding="0,14,0,0" width="20" height="34" bkcolor="#FFF44C4C" enabled="false" normalimage="icons/input_right.png"/>
+        </HorizontalLayout>
+      <HorizontalLayout width="1" >
+        <Control />
+      </HorizontalLayout>
+      <HorizontalLayout width="280">
+        <Button name="BtnHistory" padding="5,21,0,0" width="17" height="17" bkcolor="#FFF44C4C" normalimage="icons/history.png" hotimage="icons/history-hover.png" pushedimage="icons/history.png"/>
+        <Button name="BtnUserLogin" padding="32,18,0,0" width="27" height="27" bkcolor="#FFF44C4C" normalimage="icons/userlogin.png" hotimage="icons/userlogin-hover.png"/>
+        <Button name="BtnLoginInfo" padding="10,25,0,0" width="10" height="7" bkcolor="#FFF44C4C" normalimage="icons/login-drop.png"/>
+        <Button name="BtnMiniMode" padding="20,21,0,0" width="29" height="18" bkcolor="#FFF44C4C" normalimage="icons/mini.png" hotimage="icons/mini-hover.png" pushedimage="icons/mini.png"/>
+        <Button name="BtnMin" padding="20,28,0,0" width="13" height="2" bkcolor="#FFF44C4C" normalimage="icons/minimum.png" hotimage="icons/minimum-hover.png" pushedimage="icons/minimum.png"/>
+        <Button name="BtnMax" padding="23,21,0,0" width="13" height="13" bkcolor="#FFF44C4C" normalimage="icons/maximum.png" hotimage="icons/maximum-hover.png" pushedimage="icons/maximum.png"/>
+        <Button name="BtnRestore" padding="23,21,0,0" visible="false" width="13" height="13" bkcolor="#FFF44C4C" normalimage="icons/restore.png" hotimage="icons/restore-hover.png" pushedimage="icons/restore.png"/>
+        <Button name="BtnClose" padding="23,21,0,0"  width="14" height="13" bkcolor="#FFF44C4C" normalimage="icons/close.png" hotimage="icons/close-hover.png" pushedimage="icons/close.png"/>
+    </HorizontalLayout>
+    </HorizontalLayout>
+    <HorizontalLayout>
+      <HorizontalLayout width="140" bkcolor="#FFFFFFFF" >
+        <VerticalLayout >
+          <VerticalLayout height="380">
+            <Option name="TbOptSearchWord"  padding="0,20,0,0" height="40" group="tabDemo" normalimage="icons/dict1.png" hotimage="icons/dict1-hover.png" selectedimage="icons/dict1-push.png" seleted="true"/>
+            <Option name="OptionDemo2"  height="40"  group="tabDemo" normalimage="icons/trans1.png" hotimage="icons/trans1-hover.png" selectedimage="icons/trans1-push.png"/>
+            <Option name="OptionDemo3"  height="40"  group="tabDemo" normalimage="icons/Example1.png" hotimage="icons/Example1-hover.png" selectedimage="icons/Example1-push.png"/>
+            <Option name="OptionDemo4"  height="40"  group="tabDemo" normalimage="icons/Wiki1.png" hotimage="icons/Wiki1-hover.png" selectedimage="icons/Wiki1-push.png"/>
+            <Label  name="LableLeftLine" padding="18,20,0,0" width="100" height="1" bordersize="1" bordercolor="#FFDDE0E4"/>
+            <Option name="OptionDemo5"  padding="0,22,0,0" height="40"  group="tabDemo" normalimage="icons/WordBook1.png" hotimage="icons/WordBook1-hover.png" selectedimage="icons/WordBook1-push.png"/>
+            <Option name="OptionDemo6"  height="40"  group="tabDemo" normalimage="icons/ManualTrans1.png" hotimage="icons/ManualTrans1-hover.png" selectedimage="icons/ManualTrans1-push.png"/>
+            <Option name="OptionDemo7"  height="40"  group="tabDemo" normalimage="icons/Setting1.png" hotimage="icons/Setting1-hover.png" selectedimage="icons/Setting1-push.png"/>
+            <Option name="OptionDemo8"  height="40"  group="tabDemo" normalimage="icons/Survey1.png" hotimage="icons/Survey1-hover.png" selectedimage="icons/Survey1-push.png"/>
+          </VerticalLayout>
+          
+          <VerticalLayout width="1" >
+            <Control />
+          </VerticalLayout>
+          
+          <VerticalLayout padding="0,0,0,0" height="95"> 
+          <HorizontalLayout height="30">
+            <Option name="OptionCheck1" padding="25,10,0,0" width="16" height="16"  normalimage="icons/check.png" selectedimage="icons/checked.png"/>
+            <Label name="LabelFindWord" padding="10,5,0,0" font="14" text="取词" textcolor="#FF5F6266" />
+            </HorizontalLayout>
+          <HorizontalLayout padding="0,0,0,0"  height="30">
+            <Option name="OptionCheck2"  padding="25,10,0,0" width="16" height="16"  normalimage="icons/check.png" selectedimage="icons/checked.png"/>
+            <Label name="LabelMarkWord"  padding="10,5,0,0"  font="14" text="划词" textcolor="#FF5F6266" />
+          </HorizontalLayout>
+          </VerticalLayout>
+        </VerticalLayout>
+      </HorizontalLayout>
+        <TabLayout name="tabTest" bkcolor="#FFF9FBFC" selectedid="0" vscrollbar="true" sepheight="4">
+          <HorizontalLayout>
+          </HorizontalLayout>
+          <HorizontalLayout>
+            <Button name="OptionDemo2" text="OptionDemo2" bkcolor="#FFF44C4C"  />
+          </HorizontalLayout>
+          <!--例句-->
+          <HorizontalLayout>
+            <HorizontalLayout>
+              <Control />
+            </HorizontalLayout>
+            <HorizontalLayout>
+              <VerticalLayout>
+               <VerticalLayout>
+                 <Control />
+               </VerticalLayout>
+               <VerticalLayout height="200">
+                  <Label name="LabelOptionExample" width="220" height="200" bkimage="icons/BkExampleGround.png"/>
+               </VerticalLayout>
+               <VerticalLayout>
+                 <Control />
+               </VerticalLayout>
+             </VerticalLayout>          
+            </HorizontalLayout>
+            <HorizontalLayout>
+              <Control />
+            </HorizontalLayout>
+          </HorizontalLayout>
+          <!--百科-->
+           <HorizontalLayout>
+            <HorizontalLayout>
+              <Control />
+            </HorizontalLayout>
+            <HorizontalLayout>
+              <VerticalLayout>
+                <VerticalLayout>
+                   <Control />
+                </VerticalLayout>
+                <VerticalLayout height="200">
+                   <Label name="LabelOptionExample" width="220" height="200" bkimage="icons/BkWikiGround.png"/>
+                </VerticalLayout>
+                <VerticalLayout>
+                   <Control />
+                </VerticalLayout>
+              </VerticalLayout>          
+            </HorizontalLayout>
+            <HorizontalLayout>
+              <Control />
+            </HorizontalLayout>
+          </HorizontalLayout>
+
+          <!--单词本-->
+          <HorizontalLayout>
+            <HorizontalLayout width="1">
+              <Label name="LableWordLeftLine" width="1" bordersize="1" bordercolor="#FFDDE0E4"/>
+            </HorizontalLayout>
+            <HorizontalLayout width="220" bkcolor="#FFFFFFFF">
+              <VerticalLayout >
+                <HorizontalLayout height="30">
+                  <Button name="BtnWordRecovery" padding="10,5,0,0" width="54" height="20" bkimage="icons/WordRecovery.png"/>
+                  <Button name="BtnWordSynchronized"  padding="100,5,0,0" width="54" height="20" bkimage="icons/WordSynchronized.png"/>
+                </HorizontalLayout>
+                <Label  name="LableWordLine1"  width="220" height="1" bordersize="1" bordercolor="#FFDDE0E4"/>
+                <HorizontalLayout  height="40">
+                  <Button name="BtnWordClassify"  padding="10,0,0,0" width="70" height="28" bkimage="icons/WordClassify.png"/>
+                  <Button name="BtnWordSort"  padding="10,0,0,0" width="74" height="28" bkimage="icons/WordSort.png"/>
+                  <Button name="BtnWordManager"  padding="15,0,0,0" width="40" height="28" bkimage="icons/WordManager.png"/>
+                </HorizontalLayout>
+                <Label  name="LableWordLine2"  width="220" height="1" bordersize="1" bordercolor="#FFDDE0E4"/>
+                <HorizontalLayout>
+                  <Control />
+                </HorizontalLayout>
+                <Label  name="LableWordLine3"  width="220" height="1" bordersize="1" bordercolor="#FFDDE0E4"/>
+                <HorizontalLayout height="40">
+                      <Label name="LabelWordBottomTip1" float="true" pos="5,10" width="15" height="15" font="1" text="共" textcolor="#FF5F6266"/>
+                      <Label name="LabelWordBottomTip2"  float="true" pos="25,10" width="15" height="15" font="1" text="0" textcolor="#FFF44C4C"/>
+                      <Label name="LabelWordBottomTip3"    float="true" pos="40,10" width="45" height="15" font="1" text="个单词" textcolor="#FF5F6266"/>
+                      <Button name="BtnWordPrev" float="true" pos="130,11"  width="16" height="16" bkimage="icons/WordPagePrev.png"/>
+                      <Label name="LabelWordBottomCurrentPageNum" float="true" pos="152,10" width="12" height="16" font="1" text="1" textcolor="#FFF44C4C"/>
+                      <Label name="LabelWordBottomTip4"  float="true" pos="162,11" width="12" height="16" bkimage="icons/WordPageTip.png"/>
+                      <Label name="LabelWordBottomAllPageNum"  float="true" pos="174,10" width="16" height="16" font="1" text="1" textcolor="#FF5F6266"/>
+                      <Button name="BtnWordPageNext" float="true" pos="190,11" width="16" height="16" bkimage="icons/WordPageNext.png"/>
+                  </HorizontalLayout>
+              </VerticalLayout>
+            </HorizontalLayout>
+              <HorizontalLayout>
+                <Label name="LableWordRightLine" width="1" bordersize="1" bordercolor="#FFDDE0E4"/>
+              </HorizontalLayout>
+          </HorizontalLayout>
+          <!--人工翻译-->
+           <HorizontalLayout>
+           </HorizontalLayout>
+          <!--设置-->
+           <HorizontalLayout >
+             <VerticalLayout>
+               <HorizontalLayout height="45">
+               <Option name="OptSetting1"  padding="15,7,0,0" text="常规" font="15" align="left"  width="60" height="36" selectedtextcolor="#FFF44C4C" group="TabSettings" />
+               <Option name="OptSetting2"  padding="5,7,0,0" text="内容设置" font="15" align="left"  width="80" height="36" selectedtextcolor="#FFF44C4C" group="TabSettings" />
+               <Option name="OptSetting3"  padding="15,7,0,0" text="取词设置" font="15" align="left"  width="80" height="36" selectedtextcolor="#FFF44C4C" group="TabSettings" />
+               <Option name="OptSetting4"  padding="15,7,0,0" text="划词设置" font="15" align="left"  width="80" height="36" selectedtextcolor="#FFF44C4C" group="TabSettings" />
+               <Option name="OptSetting5"  padding="15,7,0,0" text="单词本设置" font="15" align="left"  width="90" height="36" selectedtextcolor="#FFF44C4C" group="TabSettings" />
+               <Option name="OptSetting6"  padding="20,7,0,0" text="网络设置" font="15" align="left"  width="80" height="36" selectedtextcolor="#FFF44C4C" group="TabSettings" />
+               <Option name="OptSetting7"  padding="10,7,0,0" text="关于网易有道词典" font="15" align="left"  width="120" height="36" selectedtextcolor="#FFF44C4C" group="TabSettings" />
+               </HorizontalLayout>
+               <Label  name="SettingsLine" height="1" bordersize="1" bordercolor="#FFDDE0E4"/>
+               <HorizontalLayout>
+               <TabLayout name="tabSettings" bkcolor="#FFF9FBFC" selectedid="0" >
+                 <HorizontalLayout>
+                   <VerticalLayout>
+                     <HorizontalLayout height="35">
+                       <Label name="LabelSettingsLine" padding="15,15,0,0" width="3" height="18" bordersize="3"  bordercolor="#FFF44C4C" />
+                       <Label name="LabelSettingsInfo" padding="5,15,0,0" font="2" text="常规"  height="18" />
+                     </HorizontalLayout>
+                     <HorizontalLayout height="20">
+                         <Label name="LabelFontChoose" padding="25,5,0,0" font="2" text="字体选择: 主要影响到阅读体验" textcolor="#FF5F6266" /> 
+                     </HorizontalLayout>
+                     <HorizontalLayout width="180" height="60">
+                        <HorizontalLayout  height="60">
+                          <Option name="OpFont1" group="GroupSetting1" font="2" padding="25,21,0,0" width="16" height="16"  normalimage="icons/SettingCheck.png" selectedimage="icons/SettingChecked.png"/>
+                          <Label name="LabelFont1" padding="10,0,0,0" font="2" text="较大" textcolor="#FF5F6266" />
+                        </HorizontalLayout>
+                        <HorizontalLayout height="60">
+                          <Option name="OpFont2" group="GroupSetting1" font="2" padding="0,21,0,0" width="16" height="16"  normalimage="icons/SettingCheck.png" selectedimage="icons/SettingChecked.png"/>
+                          <Label name="LabelFont2" padding="10,0,0,0"  font="2" text="标准" textcolor="#FF5F6266" />
+                        </HorizontalLayout>
+                     </HorizontalLayout>
+                   <Label name="LabelStartInfo" padding="25,0,0,0" font="2" text="启动:" textcolor="#FF5F6266" />
+                   <HorizontalLayout height="30">
+                     <Option name="OptAutoStart" padding="25,10,0,0" font="2" width="16" height="16"  normalimage="icons/check.png" selectedimage="icons/checked.png"/>
+                     <Label name="LabelAutoStart" padding="10,5,0,0" font="2" text="开机时自动启动" textcolor="#FF5F6266" />
+                   </HorizontalLayout>
+                   <HorizontalLayout padding="0,0,0,0"  height="30">
+                     <Option name="OptSettingClose"  padding="25,10,0,0" font="2" width="16" height="16"  normalimage="icons/check.png" selectedimage="icons/checked.png"/>
+                     <Label name="LabelSettingClose"  padding="10,5,0,0"  font="2" text="启动后最小化到系统托盘" textcolor="#FF5F6266" /> 
+                   </HorizontalLayout>                    
+                   <Label name="LabelMainWnd" padding="25,10,0,0" font="2" text="主窗口:" textcolor="#FF5F6266" />
+                   <HorizontalLayout height="30">
+                     <Option name="OptMainWndFront" padding="25,10,0,0" font="2" width="16" height="16"  normalimage="icons/check.png" selectedimage="icons/checked.png"/>
+                     <Label name="LabelMainWndFront" padding="10,5,0,0" font="2" text="启用主窗口总在最前" textcolor="#FF5F6266" />
+                   </HorizontalLayout>
+                   <HorizontalLayout padding="0,0,0,0"  height="30">
+                     <Option name="OptMainWndClose"  padding="25,10,0,0" font="2" width="16" height="16"  normalimage="icons/check.png" selectedimage="icons/checked.png"/>
+                     <Label name="LabelMainWndClose"  padding="10,5,0,0"  font="2" text="窗口关闭时最小化到系统托盘" textcolor="#FF5F6266" /> 
+                   </HorizontalLayout>
+                   <Label name="LabelStrcture" padding="25,10,0,0" text="快捷键:" font="2" textcolor="#FF5F6266" />
+                   <HorizontalLayout padding="0,0,0,0"  width="450" height="38">
+                     <Label name="LabelOpenYD"  padding="25,10,0,0"  font="2" text="打开有道词典:" textcolor="#FF5F6266" /> 
+                     <Edit name="EditOpenYD" padding="0,14,0,0" font="2" text="Ctrl + Alt + X" textcolor="#FF4B4F51" bordersize="1"  bordercolor="#FFDDE0E4" width="150" height="32"/>
+                     <Label name="LabelOpenYD"  padding="10,10,0,0"  font="2" text="直接按键盘进行设置" textcolor="#FF969696"/> 
+                   </HorizontalLayout>
+                   <HorizontalLayout padding="0,0,0,0"  width="450" height="38">
+                     <Label name="LabelOpenMini"  padding="25,10,0,0"  font="2" text="打开Mini窗口:" textcolor="#FF5F6266" /> 
+                     <Edit name="EditOpenMini" padding="0,14,0,0" font="2" text="" textcolor="#FF4B4F51" bordersize="1"  bordercolor="#FFDDE0E4" disabledtextcolor="#FFA7A6AA" width="150" height="32" />
+                     <Label name="LabelOpenMini"  padding="10,10,0,0"  font="2" text="直接按键盘进行设置" textcolor="#FF969696" /> 
+                   </HorizontalLayout>
+                   </VerticalLayout>
+                 </HorizontalLayout>
+                 <HorizontalLayout>
+                 </HorizontalLayout>
+                 <HorizontalLayout>
+                 </HorizontalLayout>
+                 <HorizontalLayout>
+                 </HorizontalLayout>
+                 <HorizontalLayout>
+                   <VerticalLayout>
+                   <HorizontalLayout height="180">
+                     <Button name="BtnAgentOK" text="确定" padding="25,15,0,0" font="2" bkcolor="#FFEEE9E9" borderround="2,2" textcolor="#FF5F6266" width="70" height="32"/>
+                   </HorizontalLayout>
+                     <HorizontalLayout height="380">
+                       <Button name="BtnAgentOK" text="确定" padding="25,15,0,0" font="2" bkcolor="#FFEEE9E9" borderround="2,2" textcolor="#FF5F6266" width="70" height="32"/>
+                   </HorizontalLayout>
+                     <HorizontalLayout height="780">
+                       <Button name="BtnAgentOK" text="确定" padding="25,15,0,0" font="2" bkcolor="#FFEEE9E9" borderround="2,2" textcolor="#FF5F6266" width="70" height="32"/>
+                   </HorizontalLayout>
+                     </VerticalLayout>
+                 </HorizontalLayout>
+                 <HorizontalLayout height="180">
+                   <VerticalLayout>
+                     <Label name="LabelHttpAgent" font="2" padding="10,25,0,0" text="HTTP代理：" textcolor="#FF5F6266" />
+                      <HorizontalLayout height="30">
+                        <Option name="OptNotAgent" group="GroupSetting2" font="2" padding="25,8,0,0" width="16" height="16"  normalimage="icons/SettingCheck.png" selectedimage="icons/SettingChecked.png"/>
+                        <Label name="LabelNotAgent" padding="10,0,0,0" font="2" text="不使用代理" textcolor="#FF5F6266" />
+                      </HorizontalLayout>
+                      <HorizontalLayout height="30">
+                        <Option name="OptAgent" group="GroupSetting2" font="2" padding="25,8,0,0" width="16" height="16"  normalimage="icons/SettingCheck.png" selectedimage="icons/SettingChecked.png"/>
+                        <Label name="LabelAgent" padding="10,0,0,0"  font="2" text="自定义代理" textcolor="#FF5F6266" />
+                      </HorizontalLayout>
+                     <Button name="BtnAgentOK" text="确定" padding="25,15,0,0" font="2" bkcolor="#FFEEE9E9" borderround="2,2" textcolor="#FF5F6266" width="70" height="32"/>
+                   </VerticalLayout> 
+                 </HorizontalLayout>
+                 <HorizontalLayout>
+                   <VerticalLayout height="150">
+                   <Label name="LabelAbout" font="2" padding="0,15,0,0" text="  仿网易有道词典cef3 + Duilib版本V1.0" />
+                   <Label name="LabelAboutMe" font="2" text="  QQ : 1160113606" />
+                   <Label name="LabelGithubLink" font="2" text="  Github : https://github.com/karllen/cef3-duilib-YDDemo" />
+                   <Label name="LabelSourceInfo" font="2" text="  注:一切图片资源归网易有道所有,如有侵权,请尽快联系作者删除!" />
+                  </VerticalLayout>
+                 </HorizontalLayout>
+               </TabLayout>
+               </HorizontalLayout>
+             </VerticalLayout>
+           </HorizontalLayout>
+            <HorizontalLayout>
+            </HorizontalLayout>
+          <!--单词复习-->
+          <HorizontalLayout bkcolor="#FFFFFFFF">
+            <Button name="BtnWordPlanBack" padding="20,30,0,0" width="85" height="25" bkimage="icons/WordPlanBack.png"/>
+            <HorizontalLayout>
+              <Control />
+            </HorizontalLayout>
+            <HorizontalLayout>
+              <VerticalLayout>
+                <VerticalLayout>
+                  <Control />
+                </VerticalLayout>
+                <VerticalLayout height="222">
+                  <Label name="LabelWordPlan" width="320" height="222" bkimage="icons/WordPlan.png"/>
+                </VerticalLayout>
+                <VerticalLayout>
+                  <Control />
+                </VerticalLayout>
+              </VerticalLayout>
+            </HorizontalLayout>
+            <HorizontalLayout>
+              <Control />
+            </HorizontalLayout>
+          </HorizontalLayout>
+        
+        </TabLayout>
+    </HorizontalLayout>   
+  </VerticalLayout>
+
+</Window>

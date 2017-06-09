@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="res">
+      <UniqueIdentifier>{4fad4cf7-23cc-414e-8d39-b6128b5cc42a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app">
+      <UniqueIdentifier>{20b1c3d9-376c-4de4-b604-48ec3c5c00e2}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{1db34056-bb54-457c-b98c-2e032760fe94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cef">
+      <UniqueIdentifier>{0ef0a012-bc3d-414e-940a-a1e65347f15b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonTab.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginWnd.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrame.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="simple_app.cpp">
+      <Filter>cef</Filter>
+    </ClCompile>
+    <ClCompile Include="simple_handler.cpp">
+      <Filter>cef</Filter>
+    </ClCompile>
+    <ClCompile Include="TransSelectWnd.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="WordClassifyWnd.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="WordManagerWnd.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="WordSortWnd.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniModeWnd.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StdAfx.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>res</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonTab.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginWnd.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrame.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="simple_app.h">
+      <Filter>cef</Filter>
+    </ClInclude>
+    <ClInclude Include="simple_handler.h">
+      <Filter>cef</Filter>
+    </ClInclude>
+    <ClInclude Include="TransSelectWnd.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="WordClassifyWnd.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="WordManagerWnd.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="WordSortWnd.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniModeWnd.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="YDDemo.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="res\MainWindow.xml">
+      <Filter>res</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

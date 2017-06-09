@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window caption="0,0,0,36" size="135,78" bktrans="true" maxsize="135,78" roundcorner="4,4">
+	<VerticalLayout  bkcolor="#FFFFFFFF" bordersize="1" bordercolor="#FAFAFA">
+    <Option name="AllClassify" text="    所有分类"  font="1" padding="1,5,0,0" align="left" width="132" height="32" hottextcolor="#FFF44C4C" pushedtextcolor="#FFF44C4C" bkimage="icons/OptionBkImage.png"   hotimage="icons/OptionHoverSelect.png" group="ClassifyGroup" selectedimage="icons/OptionHoverSelect.png" />
+    <Option name="NotClassifyWord" text="    未分类单词" font="1" padding="1,0,0,0" align="left" width="132" height="32" hottextcolor="#FFF44C4C" pushedtextcolor="#FFF44C4C" bkimage="icons/OptionBkImage.png"  hotimage="icons/OptionHoverSelect.png" group="ClassifyGroup" selectedimage="icons/OptionHoverSelect.png" />
+    
+	</VerticalLayout>
+</Window>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window caption="0,0,0,36" roundcorner="0,0" sizebox ="4,4,6,6" size="925,600" mininfo="800,600">
+  <Font id="1" name="微软雅黑" size="12" bold="false" default="true" shared="true" />
+  <VerticalLayout bkcolor="#FFFFFFFF">
+    <HorizontalLayout  height="60" bkcolor="#FFF44C4C">
+      <HorizontalLayout >
+        <Button name="BtnYDLogo" padding="22,15,0,0" width="80" height="30" bkcolor="#FFF44C4C" normalimage="icons/84x30_Logo.png"/>
+        <Button name="BtnPrevPage" padding="33,24,0,0" width="8" height="13" bkcolor="#FFF44C4C" normalimage="icons/prev.png" hotimage="icons/prev-hover.png" pushedimage="icons/prev-disabled.png"/>
+        <Button name="BtnNextPage" padding="28,24,0,0" width="8" height="13" bkcolor="#FFF44C4C" normalimage="icons/next.png" hotimage="icons/next-hover.png" pushedimage="icons/next-disabled.png"/>
+        <Button name="BtnSearchLeft" padding="12,14,0,0" width="23" height="34" bkcolor="#FFF44C4C" enabled="false" normalimage="icons/input_left.png"/>
+        <Button name="BtnCvLg" padding="0,14,0,0" width="50" height="32" text="英汉互译" bkcolor="#FFFFFFFF"/>
+        <Button name="BtnSearch" padding="0,14,0,0" width="28" height="32" normalimage="icons/drop1.png"/>
+        <Edit name="EditSearch" padding="0,14,0,0" font="1" text="输入要查询的单词或词组" textcolor="#FF4B4F51" disabledtextcolor="#FFA7A6AA" height="32" />
+        <Button name="BtnSearch" padding="0,14,0,0" width="24" height="32" normalimage="icons/search1.png"/>
+        <Button name="BtnSearchRight" padding="0,14,0,0" width="20" height="34" bkcolor="#FFF44C4C" enabled="false" normalimage="icons/input_right.png"/>
+        </HorizontalLayout>
+      <HorizontalLayout width="1" >
+        <Control />
+      </HorizontalLayout>
+      <HorizontalLayout width="280">
+        <Button name="BtnHistory" padding="5,21,0,0" width="17" height="17" bkcolor="#FFF44C4C" normalimage="icons/history.png" hotimage="icons/history-hover.png" pushedimage="icons/history.png"/>
+        <Button name="BtnUserLogin" padding="32,18,0,0" width="27" height="27" bkcolor="#FFF44C4C" normalimage="icons/userlogin.png" hotimage="icons/userlogin-hover.png"/>
+        <Button name="BtnLoginInfo" padding="10,25,0,0" width="10" height="7" bkcolor="#FFF44C4C" normalimage="icons/login-drop.png"/>
+        <Button name="BtnMiniMode" padding="20,21,0,0" width="29" height="18" bkcolor="#FFF44C4C" normalimage="icons/mini.png" hotimage="icons/mini-hover.png" pushedimage="icons/mini.png"/>
+        <Button name="Btnminimum" padding="20,28,0,0" width="13" height="2" bkcolor="#FFF44C4C" normalimage="icons/minimum.png" hotimage="icons/minimum-hover.png" pushedimage="icons/minimum.png"/>
+        <Button name="BtnMaximum" padding="23,21,0,0" width="13" height="13" bkcolor="#FFF44C4C" normalimage="icons/maximum.png" hotimage="icons/maximum-hover.png" pushedimage="icons/maximum.png"/>
+        <Button name="BtnClose" padding="23,21,0,0"  width="14" height="13" bkcolor="#FFF44C4C" normalimage="icons/close.png" hotimage="icons/close-hover.png" pushedimage="icons/close.png"/>
+    </HorizontalLayout>
+    </HorizontalLayout>
+    <HorizontalLayout>
+      <HorizontalLayout width="140">
+        <VerticalLayout>
+          <Option name="TbOptSearchWord" text="查词" width="120" height="60" group="tabDemo" />
+          <Option name="OptionDemo2" text="翻译" width="120" height="60"  group="tabDemo" />
+          <Option name="OptionDemo3" text="列句" width="120" height="60"  group="tabDemo" />
+          <Option name="OptionDemo4" text="百科" width="120" height="60"  group="tabDemo" />
+          <Option name="OptionDemo5" text="单词本" width="120" height="60"  group="tabDemo" />
+          <Option name="OptionDemo6" text="人工翻译" width="120" height="60"  group="tabDemo" />
+          <Option name="OptionDemo7" text="设置" width="120" height="60"  group="tabDemo" />
+          <Option name="OptionDemo7" text="满意度" width="120" height="60"  group="tabDemo" />
+        </VerticalLayout>
+      </HorizontalLayout>
+        <TabLayout name="tabTest" bkcolor="#FFF9FBFC" selectedid="-1">
+          <HorizontalLayout>
+            <TbOptSearchWord />
+          </HorizontalLayout>
+          <HorizontalLayout>
+            <Button name="OptionDemo2" text="OptionDemo2" bkcolor="#FFF44C4C"  />
+          </HorizontalLayout>
+          <HorizontalLayout>
+            <Button name="OptionDemo3" text="OptionDemo3" bkcolor="#FFF44C4C"  />
+          </HorizontalLayout>
+        </TabLayout>
+    </HorizontalLayout>
+    
+  </VerticalLayout>
+
+</Window>

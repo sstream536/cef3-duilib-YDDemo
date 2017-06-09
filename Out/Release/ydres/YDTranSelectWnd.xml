@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window caption="0,0,0,36" size="335,72" bktrans="true" maxsize="335,72" bordersize="1">
+   <Font id="2" name="微软雅黑" size="14" bold="false" default="true" shared="true" />
+   <Font id="3" name="微软雅黑" size="12" bold="false" default="true" shared="true" />
+   <Font id="4" name="微软雅黑" size="13" bold="false" default="true" shared="true" />
+	<VerticalLayout  bkcolor="#FFF9FBFC">
+    <!--标题栏 横向关闭-->
+    <HorizontalLayout >
+      <Button name="TransSelectButton1" text="英汉互译" font="3" padding ="7,10,0,0" width="72" height="22" hottextcolor="#FFF44C4C" pushedtextcolor="#FFF44C4C"/>
+	  <Button name="TransSelectButton2" text="法汉互译" font="3" padding ="15,10,0,0" width="72" height="22" hottextcolor="#FFF44C4C" pushedtextcolor="#FFF44C4C"/>
+	  <Button name="TransSelectButton3" text="韩汉互译" font="3" padding ="15,10,0,0" width="72" height="22" hottextcolor="#FFF44C4C" pushedtextcolor="#FFF44C4C"/>
+	  <Button name="TransSelectButton4" text="日汉互译" font="3" padding ="15,10,0,0" width="72" height="22" hottextcolor="#FFF44C4C" pushedtextcolor="#FFF44C4C"/>
+    </HorizontalLayout >
+    <HorizontalLayout >
+      <Button name="TransSelectButton5" text="德汉互译" font="3" padding ="7,2,0,0" width="72" height="22" hottextcolor="#FFF44C4C" pushedtextcolor="#FFF44C4C"/>
+	  <Button name="TransSelectButton6" text="俄汉互译" font="3" padding ="15,2,0,0" width="72" height="22" hottextcolor="#FFF44C4C" pushedtextcolor="#FFF44C4C"/>
+	  <Button name="TransSelectButton7" text="葡汉互译" font="3" padding ="15,2,0,0" width="72" height="22" hottextcolor="#FFF44C4C" pushedtextcolor="#FFF44C4C"/>
+	  <Button name="TransSelectButton8" text="西汉互译" font="3" padding ="15,2,0,0" width="72" height="22" hottextcolor="#FFF44C4C" pushedtextcolor="#FFF44C4C"/>
+    </HorizontalLayout >
+	</VerticalLayout>
+</Window>

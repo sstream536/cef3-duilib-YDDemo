@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window caption="0,0,0,36" size="290,433" bktrans="true">
+   <Font id="2" name="微软雅黑" size="14" bold="false" default="true" shared="true" />
+   <Font id="3" name="微软雅黑" size="12" bold="false" default="true" shared="true" />
+   <Font id="4" name="微软雅黑" size="13" bold="false" default="true" shared="true" />
+	<VerticalLayout  bkcolor="#FFFFFFFF">
+    <!--标题栏 横向关闭-->
+    <HorizontalLayout padding="0,0,0,0" height="26">
+      <Button name="BthLoginWndClose" padding ="260,15,0,0" width="11" height="11" normalimage="icons/login-close.png" hotimage="icons/login-close.png" pushedimage="icons/login-close.png"/>
+    </HorizontalLayout >
+    
+    <!--Logo YD-->
+    <HorizontalLayout padding="0,0,0,0" height="100">
+      <Label name="LBLoginWndLogo" padding="80,0,0,0" inset="2,2,0,0" width="140" height="100" bkimage="icons/login_logo1.png"/>
+    </HorizontalLayout>
+    <!--用户名密码-->
+    <HorizontalLayout padding="0,10,0,0" height="75">
+      <VerticalLayout height="70"> 
+          <RichEdit name="EditLoginUser" padding="29,0,0,0" inset="12,2,0,0" width="232" height="30" font="4" textcolor="#FF5F6266" text="请输入您的网易通行证" bkimage="icons/Login-input.png"/> 
+          <RichEdit name="EditLoginPassword" padding="29,10,0,0" inset="12,2,0,0" width="232" height="30" font="4"  textcolor="#FF5F6266" text="请输入密码" bkimage="icons/Login-input.png"/> 
+      </VerticalLayout>
+    </HorizontalLayout>
+    <!--自动登录 忘记密码-->
+    <HorizontalLayout padding="0,10,0,0" height="30">
+      <Option name="OptRemeberPassWord" padding="30,2,0,0" width="16" height="16" normalimage="icons/check.png" hotimage="icons/check-hover.png" selectedimage="icons/checked.png"/>
+      <Label name="LabelRemeberPassWord" text="自动登录" font="3" padding="10,2,0,0" width="60" height="16"/>
+      <Button name="BtnForgetPassWord" text="忘记密码？" font="3" padding="85,2,0,0" width="60" height="16" pushedtextcolor="#FFFFB4B4" hottextcolor="#FFFFB4B4"/>
+    </HorizontalLayout>
+    
+    <!--登录 注册-->
+    <HorizontalLayout  padding="0,15,0,0" height="75">
+      <VerticalLayout height="70">
+        <Button padding="29,0,0,0" text="登录" width="232" height="30" normalimage="icons/login-button.png" hotimage="icons/login-button-hover.png" pushedimage="icons/login-button-down.png"/>
+        <Button padding="29,10,0,0" text="注册" width="232" height="30" normalimage="icons/login-register.png" hotimage="icons/login-register-hover.png" pushedimage="icons/login-register-down.png"/>
+      </VerticalLayout>
+    </HorizontalLayout>
+
+    <!--其他登录方式-->
+    <HorizontalLayout padding="0,20,0,0">
+      <VerticalLayout>
+        <Label name="LabelLine" padding="0,0,0,0" height="1" bordersize="1" bordercolor="#FFDDE0E4"/>
+        <Label name="LabelOtherText" padding="105,12,0,0" text="其他登录方式" height="20" font="1"/>
+        <HorizontalLayout padding="30,8,0,0" height="60">
+         <Button name="BtnWeiXin" padding="55,2,0,0" width="20" height="15" normalimage="icons/weixin.png" hotimage="icons/weixin-hover.png" pushedimage="weixin-hover.png"/>
+         <Button name="BtnWeibo" padding="30,2,0,0" width="19" height="15" normalimage="icons/weibo.png" hotimage="icons/weibo-hover.png" pushedimage="icons/weibo-hover.png"/>
+         <Button name="BtnQQ" padding="30,0,0,0" width="15" height="17" normalimage="icons/qq.png" hotimage="icons/qq-hover.png" pushedimage="icons/qq-hover.png"/>
+        </HorizontalLayout>
+      </VerticalLayout>
+    </HorizontalLayout>
+	</VerticalLayout>
+</Window>

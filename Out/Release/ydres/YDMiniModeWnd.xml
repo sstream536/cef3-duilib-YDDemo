@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window caption="0,0,0,36" roundcorner="0,0" sizebox ="0,0,0,0" size="330,66" minsize="330,66" maxsize="330,66">
+  <Font id="1" name="微软雅黑" size="12" bold="false" default="true" shared="true" />
+  <Font id="14" name="微软雅黑" size="14" bold="false" default="true" shared="true" />
+  <VerticalLayout bkcolor="#FFFFFFFF">
+    <HorizontalLayout  height="28" bkcolor="#FFF44C4C">
+        <Button name="BtnMiniLogo" mouse="false" padding="5,2,0,0" width="80" height="24" bkcolor="#FFF44C4C" normalimage="icons/MiniLogo.png"/>
+        <Button name="BtnMiniCvLg" padding="10,2,0,0" font="1" width="60" height="24" text="英汉互译" textcolor="#FFFFFFFF" />
+        <Button name="BtnMiniTransSelect" padding="0,6,0,0" width="25" height="15" normalimage="icons/mini-drop.png"/>
+        <Button name="BtnMiniQcsprig" padding="108,8,0,0"  width="16" height="16" bkcolor="#FFF44C4C" normalimage="icons/qcsprig.png" hotimage="icons/qcsprig-hover.png" pushedimage="icons/qcfix.png"/>
+        <Button name="BtnMiniQcfix" visible="false" padding="108,8,0,0"  width="16" height="16" bkcolor="#FFF44C4C" normalimage="icons/qcfix.png" hotimage="icons/qcfix-hover.png" pushedimage="icons/qcfix.png"/>
+        <Button name="BtnMiniClose" padding="4,8,0,0"  width="16" height="16" bkcolor="#FFF44C4C" normalimage="icons/qcclose.png" hotimage="icons/qcclose-hover.png" pushedimage="icons/qcclose.png"/>
+    </HorizontalLayout>
+    <HorizontalLayout bordersize="1" bordercolor="#FFF44C4C">
+        <Edit name="EditMiniSearch" padding="0,0,0,0" font="14" text="输入要查询的单词或词组" textcolor="#FF4B4F51" disabledtextcolor="#FFA7A6AA" height="36"/>
+        <Button name="BtnMiniSearch" padding="0,0,0,0" width="36" height="36" normalimage="icons/minisearch.png"/>
+    </HorizontalLayout >
+ </VerticalLayout>
+
+</Window>
