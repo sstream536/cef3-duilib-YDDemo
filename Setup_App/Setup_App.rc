@@ -1,0 +1,115 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "res\\PLFootball.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// SKIN
+//
+
+IDR_en_US              APK                    "res\\bin\\locales\\en-US.pak"
+IDR_zh_CN              APK                    "res\\bin\\locales\\zh-CN.pak"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// EXE
+//
+
+IDR_YDDemo                  EXE                     "res\\bin\\YDDemo.exe"
+IDR_Unstall_App             EXE                     "res\\bin\\Unstall_App.exe"
+IDR_debug                   LOG                     "res\\bin\\debug.log"
+IDR_icudtl                  DAT                     "res\\bin\\icudtl.dat"
+IDR_natives_blob            BIN                     "res\\bin\\natives_blob.bin"
+IDR_snapshot_blob           BIN                     "res\\bin\\snapshot_blob.bin"
+IDR_cef                     APK                     "res\\bin\\cef.pak"
+IDR_cef_100_percent         APK                     "res\\bin\\cef_100_percent.pak"
+IDR_cef_200_percent         APK                     "res\\bin\\cef_200_percent.pak"
+IDR_cef_extensions          APK                     "res\\bin\\cef_extensions.pak"
+IDR_devtools_resources      APK                     "res\\bin\\devtools_resources.pak"
+/////////////////////////////////////////////////////////////////////////////
+//
+// DLL
+//
+
+IDR_d3dcompiler_43          DLL                     "res\\bin\\d3dcompiler_43.dll"
+IDR_d3dcompiler_47          DLL                     "res\\bin\\d3dcompiler_47.dll"
+IDR_DuiLib_u                DLL                     "res\\bin\\DuiLib_u.dll"
+IDR_libcef                  DLL                     "res\\bin\\libcef.dll"
+IDR_libEGL                  DLL                     "res\\bin\\libEGL.dll"
+IDR_libGLESv2               DLL                     "res\\bin\\libGLESv2.dll"
+IDR_widevinecdmadapter      DLL                     "res\\bin\\widevinecdmadapter.dll"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// ZIPRES
+//
+
+IDR_ZIPRES1             ZIPRES                  "res\\res.zip"
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

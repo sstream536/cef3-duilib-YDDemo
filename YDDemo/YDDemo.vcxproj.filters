@@ -97,8 +97,9 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <Xml Include="res\MainWindow.xml">
-      <Filter>res</Filter>
-    </Xml>
+    <Image Include="res\PLFootball.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\res.zip" />
   </ItemGroup>
 </Project>

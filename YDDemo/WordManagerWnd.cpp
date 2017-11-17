@@ -34,7 +34,7 @@ void CWordManagerWnd::InitWindow()
 
 CDuiString CWordManagerWnd::GetSkinFile()
 {
-	TCHAR szBuf[MAX_PATH] = _T("ydres\\YDWordManagerWnd.xml");
+	TCHAR szBuf[MAX_PATH] = _T("YDWordManagerWnd.xml");
 	return szBuf;
 }
 

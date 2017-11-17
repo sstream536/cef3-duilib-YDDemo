@@ -106,7 +106,7 @@ void CMainFrame::OnFinalMessage(HWND hWnd)
 
 CDuiString CMainFrame::GetSkinFile()
 {
-	TCHAR szBuf[MAX_PATH] = _T("ydres\\MainWindow.xml");
+	TCHAR szBuf[MAX_PATH] = _T("MainWindow.xml");
 	return szBuf;
 }
 
@@ -117,8 +117,14 @@ CDuiString CMainFrame::GetSkinFolder()
 
 UILIB_RESOURCETYPE CMainFrame::GetResourceType() const
 {
-	return UILIB_FILE;
+	return UILIB_ZIPRESOURCE;
 }
+
+LPCTSTR CMainFrame::GetResourceID() const
+{
+	return MAKEINTRESOURCE(IDR_ZIPRES1);
+}
+
 
 CControlUI* CMainFrame::CreateControl(LPCTSTR pstrClass)
 {

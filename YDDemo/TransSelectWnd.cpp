@@ -34,7 +34,7 @@ void CTransSelectWnd::InitWindow()
 
 CDuiString CTransSelectWnd::GetSkinFile()
 {
-	TCHAR szBuf[MAX_PATH] = _T("ydres\\YDTranSelectWnd.xml");
+	TCHAR szBuf[MAX_PATH] = _T("YDTranSelectWnd.xml");
 	return szBuf;
 }
 

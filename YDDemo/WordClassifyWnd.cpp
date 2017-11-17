@@ -34,7 +34,7 @@ void CWordClassifyWnd::InitWindow()
 
 CDuiString CWordClassifyWnd::GetSkinFile()
 {
-	TCHAR szBuf[MAX_PATH] = _T("ydres\\YDWordClassifyWnd.xml");
+	TCHAR szBuf[MAX_PATH] = _T("YDWordClassifyWnd.xml");
 	return szBuf;
 }
 

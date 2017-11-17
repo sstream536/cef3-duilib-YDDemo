@@ -34,7 +34,7 @@ void CWordSortWnd::InitWindow()
 
 CDuiString CWordSortWnd::GetSkinFile()
 {
-	TCHAR szBuf[MAX_PATH] = _T("ydres\\YDWordSortWnd.xml");
+	TCHAR szBuf[MAX_PATH] = _T("YDWordSortWnd.xml");
 	return szBuf;
 }
 

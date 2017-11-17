@@ -32,7 +32,7 @@ void CLoginWnd::InitWindow()
 
 CDuiString CLoginWnd::GetSkinFile()
 {
-	TCHAR szBuf[MAX_PATH] = _T("ydres\\YDLoginWnd.xml");
+	TCHAR szBuf[MAX_PATH] = _T("YDLoginWnd.xml");
 	return szBuf;
 }
 

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="res">
+      <UniqueIdentifier>{4fad4cf7-23cc-414e-8d39-b6128b5cc42a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app">
+      <UniqueIdentifier>{20b1c3d9-376c-4de4-b604-48ec3c5c00e2}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{1db34056-bb54-457c-b98c-2e032760fe94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uninstall">
+      <UniqueIdentifier>{0ef0a012-bc3d-414e-940a-a1e65347f15b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrame.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Ecoder.cpp">
+      <Filter>uninstall</Filter>
+    </ClCompile>
+    <ClCompile Include="UnInstall.cpp">
+      <Filter>uninstall</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StdAfx.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>res</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrame.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Ecoder.h">
+      <Filter>uninstall</Filter>
+    </ClInclude>
+    <ClInclude Include="UnInstall.h">
+      <Filter>uninstall</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Unstall_App.rc">
+      <Filter>app</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\PLFootball.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\res.zip" />
+  </ItemGroup>
+</Project>

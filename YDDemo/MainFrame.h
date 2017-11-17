@@ -18,6 +18,7 @@ public:
 	virtual LRESULT ResponseDefaultKeyEvent(WPARAM wParam);
 	virtual UILIB_RESOURCETYPE GetResourceType() const;
 	virtual CDuiString GetSkinFile();
+	virtual LPCTSTR GetResourceID() const;
 	virtual CDuiString GetSkinFolder();
 	virtual CControlUI* CreateControl(LPCTSTR pstrClass);
 	virtual LRESULT HandleMessage(UINT uMsg, WPARAM wParam, LPARAM lParam);

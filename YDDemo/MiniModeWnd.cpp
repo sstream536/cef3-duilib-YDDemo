@@ -34,7 +34,7 @@ void CMiniModeWnd::InitWindow()
 
 CDuiString CMiniModeWnd::GetSkinFile()
 {
-	TCHAR szBuf[MAX_PATH] = _T("ydres\\YDMiniModeWnd.xml");
+	TCHAR szBuf[MAX_PATH] = _T("YDMiniModeWnd.xml");
 	return szBuf;
 }
 
