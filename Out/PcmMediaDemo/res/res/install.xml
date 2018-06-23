@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window size="800,450" sizebox="0,0,0,0" caption="0,0,0,220"  bktrans="true" >
+  <Font id="0" name="微软雅黑" size="12" bold="false" default="true" shared="true"/>
+  <Font id="1" name="微软雅黑" size="12" bold="true" shared="true" />
+  <Font id="2" name="微软雅黑" size="24" bold="false" shared="true" />
+  <Font id="3" name="微软雅黑" size="16" bold="false" shared="true" />
+  <Font id="4" name="宋体" size="32" bold="false" shared="true" />
+  <Font id="5" name="微软雅黑" size="14" bold="false" shared="true" />
+  
+  <VerticalLayout bkcolor="#FF436EEE">  
+	<VerticalLayout height = "30"  bkcolor="#FFF44C4C">
+		<HorizontalLayout height = "30">
+			<Label  name="pcm_info" text="Pcm测试Demo" padding="10,2,0,0" width="120" height="26" />
+			<Button name="btn_min" padding="600,2,0,0" width="30" height="26" normalimage="file='min1.png' source='0,0,30,26'" hotimage="file='min1.png' source='0,26,30,52'" pushedimage="file='min1.png' source='0,52,30,78'" />
+			<Button name="btn_close" padding="5,2,0,0" width="30" height="26" normalimage="file='close1.png' source='0,0,30,26'" hotimage="file='close1.png' source='0,26,30,52'" pushedimage="file='close1.png' source='0,52,30,78'" />
+		</HorizontalLayout> 
+	</VerticalLayout>
+	
+	<VerticalLayout height = "40">
+		<HorizontalLayout height = "30">
+			<Label  name="label_result_info" text="pcm原始数据绘图结果 :" padding="15,2,0,0" width="150" height="30" />
+		</HorizontalLayout> 	
+	</VerticalLayout>
+	 
+	<VerticalLayout height = "350">
+		<PcmShowLable name="pcm_show" width="800" height="350"/>
+	</VerticalLayout>
+	
+  </VerticalLayout>
+</Window>

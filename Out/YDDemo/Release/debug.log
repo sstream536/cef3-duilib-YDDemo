@@ -16,3 +16,4 @@
 [1117/201741:WARNING:spdy_session.cc(2427)] Received HEADERS for invalid stream 9
 [1117/201741:WARNING:spdy_session.cc(2427)] Received HEADERS for invalid stream 11
 [1117/201742:ERROR:webrtcsessiondescriptionfactory.cc(480)] Create SDP failed: CreateOffer failed because the session was shut down
+[0610/165656:ERROR:render_media_log.cc(23)] MediaEvent: PIPELINE_ERROR demuxer: could not open
